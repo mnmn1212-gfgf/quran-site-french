@@ -35,12 +35,13 @@ import {
   Volume2,
 } from "lucide-react";
 
-const ACCENT = "#C6A86A";
-const ACCENT_SOFT = "#E8D6B0";
-const ACCENT_ROSE = "#B98B73";
-const BG_DEEP = "#0B1020";
-const BG_PANEL = "rgba(19,27,45,0.72)";
-const CTA_DARK = "#111827";
+// 🎨 NEW LUXURY FRENCH-INSPIRED PALETTE (Cream + Deep Green + Soft Gold)
+const ACCENT = "#D4AF37"; // rich gold
+const ACCENT_SOFT = "#F5E6C8"; // cream champagne
+const ACCENT_ROSE = "#8FA38C"; // muted green tone
+const BG_DEEP = "#0F1A17"; // deep green-black
+const BG_PANEL = "rgba(20,30,26,0.75)";
+const CTA_DARK = "#1A2A24";
 
 const OUTER_GRADIENT =
   "bg-[linear-gradient(135deg,rgba(10,16,31,0.96)_0%,rgba(22,28,47,0.94)_35%,rgba(38,24,37,0.92)_100%)]";
