@@ -1181,7 +1181,7 @@ export default function QuranTranslationLandingPage() {
                   />
                 </div>
                 <div className="truncate text-sm font-bold tracking-[0.18em] text-white/90 uppercase sm:text-xl">
-                  Sana Quranic Channels
+                  Chaînes coraniques Sana
                 </div>
               </div>
 
