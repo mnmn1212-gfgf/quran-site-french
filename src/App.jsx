@@ -1897,7 +1897,7 @@ export default function QuranTranslationLandingPage() {
                         rel="noreferrer"
                         className="group rounded-[1.3rem] border border-[rgba(232,216,195,0.10)] bg-white/[0.04] p-4 text-center transition hover:-translate-y-0.5 hover:bg-white/[0.08]"
                       >
-                        <div className="flex flex-col items-center justify-center gap-3">
+                        <div className="flex items-center justify-center gap-3">
                           <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-[rgba(232,216,195,0.10)] bg-[rgba(164,113,72,0.12)] text-white">
                             <GooglePlayIcon />
                           </div>
@@ -1913,7 +1913,7 @@ export default function QuranTranslationLandingPage() {
                         rel="noreferrer"
                         className="group rounded-[1.3rem] border border-[rgba(232,216,195,0.10)] bg-white/[0.04] p-4 text-center transition hover:-translate-y-0.5 hover:bg-white/[0.08]"
                       >
-                        <div className="flex flex-col items-center justify-center gap-3">
+                        <div className="flex items-center justify-center gap-3">
                           <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-[rgba(232,216,195,0.10)] bg-[rgba(164,113,72,0.12)] text-white">
                             <AppStoreIcon />
                           </div>
