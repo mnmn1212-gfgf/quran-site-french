@@ -1785,9 +1785,9 @@ export default function QuranTranslationLandingPage() {
               className={`rounded-[2rem] px-4 py-6 sm:px-6 sm:py-8 lg:px-10 ${glass}`}
               style={{ backgroundColor: BG_PANEL }}
             >
-              <div className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr_1fr]">
+              <div className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr_1fr] lg:items-stretch">
                 <div
-                  className={`rounded-[1.8rem] border border-[rgba(232,216,195,0.10)] p-4 text-center sm:p-6 ${INNER_GRADIENT}`}
+                  className={`flex h-full flex-col justify-center rounded-[1.8rem] border border-[rgba(232,216,195,0.10)] p-4 text-center sm:p-6 ${INNER_GRADIENT}`}
                 >
                   <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full border border-[rgba(232,216,195,0.14)] bg-white/[0.08] shadow-[0_0_24px_rgba(194,168,120,0.12)] backdrop-blur-md sm:h-24 sm:w-24">
                     <img
@@ -1819,7 +1819,7 @@ export default function QuranTranslationLandingPage() {
                   </p>
                 </div>
 
-                <div className="rounded-[1.6rem] border border-[rgba(232,216,195,0.10)] bg-white/[0.04] p-4 text-center sm:p-5">
+                <div className="flex h-full flex-col justify-center rounded-[1.6rem] border border-[rgba(232,216,195,0.10)] bg-white/[0.04] p-4 text-center sm:p-5">
                   <div className="mb-5 flex flex-col items-center justify-center gap-3 text-center">
                     <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-[rgba(232,216,195,0.10)] bg-[rgba(194,168,120,0.12)] sm:h-16 sm:w-16">
                       <MessageCircle
@@ -1870,7 +1870,7 @@ export default function QuranTranslationLandingPage() {
                   </div>
                 </div>
 
-                <div className="rounded-[1.8rem] border border-[rgba(232,216,195,0.10)] bg-[linear-gradient(145deg,rgba(255,255,255,0.08),rgba(255,255,255,0.03))] p-4 text-center backdrop-blur-md sm:p-5">
+                <div className="flex h-full flex-col justify-center rounded-[1.8rem] border border-[rgba(232,216,195,0.10)] bg-[linear-gradient(145deg,rgba(255,255,255,0.08),rgba(255,255,255,0.03))] p-4 text-center backdrop-blur-md sm:p-5">
                   <div className="mb-5 flex flex-col items-center justify-center gap-3 text-center">
                     <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-[rgba(232,216,195,0.10)] bg-[rgba(194,168,120,0.12)] sm:h-16 sm:w-16">
                       <Link2
