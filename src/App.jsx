@@ -1824,7 +1824,7 @@ export default function QuranTranslationLandingPage() {
                   </p>
                 </div>
 
-                <div className="flex h-full flex-col justify-center rounded-[1.6rem] border border-[rgba(246,231,184,0.10)] bg-white/[0.04] p-4 text-center sm:p-5">
+                <div className={`flex h-full flex-col justify-center rounded-[1.6rem] border border-[rgba(246,231,184,0.10)] p-4 text-center sm:p-5 ${INNER_GRADIENT}`}>
                   <div className="mb-5 flex flex-col items-center justify-center gap-3 text-center">
                     <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-[rgba(246,231,184,0.10)] bg-[rgba(143,227,213,0.12)] sm:h-16 sm:w-16">
                       <MessageCircle
@@ -1875,7 +1875,7 @@ export default function QuranTranslationLandingPage() {
                   </div>
                 </div>
 
-                <div className="flex h-full flex-col justify-center rounded-[1.8rem] border border-[rgba(246,231,184,0.10)] bg-[linear-gradient(145deg,rgba(255,255,255,0.08),rgba(255,255,255,0.03))] p-4 text-center backdrop-blur-md sm:p-5">
+                <div className={`flex h-full flex-col justify-center rounded-[1.8rem] border border-[rgba(246,231,184,0.10)] p-4 text-center backdrop-blur-md sm:p-5 ${INNER_GRADIENT}`}>
                   <div className="mb-5 flex flex-col items-center justify-center gap-3 text-center">
                     <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-[rgba(246,231,184,0.10)] bg-[rgba(143,227,213,0.12)] sm:h-16 sm:w-16">
                       <Link2
