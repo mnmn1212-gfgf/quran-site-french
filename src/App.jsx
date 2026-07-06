@@ -1953,7 +1953,11 @@ export default function QuranTranslationLandingPage() {
                         rel="noreferrer"
                         className="mt-4 flex w-full items-center justify-center gap-2 rounded-xl border border-[rgba(138,21,56,0.22)] bg-[rgba(138,21,56,0.12)] py-3 text-sm font-bold text-[#FFE8B6] transition hover:scale-[1.01] hover:bg-[rgba(138,21,56,0.16)]"
                       >
-                        <Sparkles className="h-4 w-4" />
+                        <Sparkles
+                          className="h-4 w-4"
+                          style={{ color: ACCENT }}
+                          strokeWidth={2.7}
+                        />
                         Commencer maintenant
                       </a>
                     </div>
