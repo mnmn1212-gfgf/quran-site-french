@@ -1792,7 +1792,8 @@ export default function QuranTranslationLandingPage() {
             >
               <div className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr_1fr] lg:items-stretch">
                 <div
-                  className={`flex h-full flex-col justify-center rounded-[1.8rem] border border-[rgba(246,231,184,0.10)] p-4 text-center sm:p-6 ${INNER_GRADIENT}`}
+                  className="flex h-full flex-col justify-center rounded-[1.8rem] border border-[rgba(246,231,184,0.10)] p-4 text-center sm:p-6"
+                  style={{ background: MAIN_GRADIENT_STYLE }}
                 >
                   <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full border border-[rgba(246,231,184,0.14)] bg-white/[0.08] shadow-[0_0_24px_rgba(143,227,213,0.12)] backdrop-blur-md sm:h-24 sm:w-24">
                     <img
@@ -1824,7 +1825,10 @@ export default function QuranTranslationLandingPage() {
                   </p>
                 </div>
 
-                <div className={`flex h-full flex-col justify-center rounded-[1.6rem] border border-[rgba(246,231,184,0.10)] p-4 text-center sm:p-5 ${INNER_GRADIENT}`}>
+                <div
+                  className="flex h-full flex-col justify-center rounded-[1.8rem] border border-[rgba(246,231,184,0.10)] p-4 text-center sm:p-6"
+                  style={{ background: MAIN_GRADIENT_STYLE }}
+                >
                   <div className="mb-5 flex flex-col items-center justify-center gap-3 text-center">
                     <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-[rgba(246,231,184,0.10)] bg-[rgba(143,227,213,0.12)] sm:h-16 sm:w-16">
                       <MessageCircle
@@ -1875,7 +1879,10 @@ export default function QuranTranslationLandingPage() {
                   </div>
                 </div>
 
-                <div className={`flex h-full flex-col justify-center rounded-[1.8rem] border border-[rgba(246,231,184,0.10)] p-4 text-center backdrop-blur-md sm:p-5 ${INNER_GRADIENT}`}>
+                <div
+                  className="flex h-full flex-col justify-center rounded-[1.8rem] border border-[rgba(246,231,184,0.10)] p-4 text-center sm:p-6"
+                  style={{ background: MAIN_GRADIENT_STYLE }}
+                >
                   <div className="mb-5 flex flex-col items-center justify-center gap-3 text-center">
                     <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-[rgba(246,231,184,0.10)] bg-[rgba(143,227,213,0.12)] sm:h-16 sm:w-16">
                       <Link2
