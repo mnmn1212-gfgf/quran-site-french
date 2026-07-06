@@ -1951,7 +1951,7 @@ export default function QuranTranslationLandingPage() {
                         href="https://www.youtube.com/@SANA-Fr"
                         target="_blank"
                         rel="noreferrer"
-                        className="mt-4 flex w-full items-center justify-center gap-2 rounded-xl border border-[rgba(255,232,182,0.10)] bg-[#240613] py-3 text-sm font-bold text-[#FFE8B6] transition hover:scale-[1.01] hover:bg-[#2D0918]"
+                        className="mt-4 flex w-full items-center justify-center gap-2 rounded-xl border border-[rgba(255,232,182,0.10)] bg-[#3A0B1D] py-3 text-sm font-bold text-[#FFE8B6] transition hover:scale-[1.01] hover:bg-[#4A1026]"
                       >
                         <Sparkles
                           className="h-4 w-4"
